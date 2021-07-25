@@ -55,3 +55,7 @@ def test_11():
 def test_12():
     poly_seq = polygons_sequence(n = 25 , r =100)
     assert str(next(poly_seq)) == "No of sides :3 , Radius : 100" , "__next__ is not working!!"
+
+def test_13():
+    poly_seq = polygons_sequence(n = 25 , r =100)
+    our_iterator.__iter__() == "Polygon sequence of 23 polygons" , "__iter__ is not working!!"
