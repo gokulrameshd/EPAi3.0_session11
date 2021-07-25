@@ -58,4 +58,4 @@ def test_12():
 
 def test_13():
     poly_seq = polygons_sequence(n = 25 , r =100)
-    our_iterator.__iter__() == "Polygon sequence of 23 polygons" , "__iter__ is not working!!"
+    poly_seq.__iter__() == "Polygon sequence of 23 polygons" , "__iter__ is not working!!"
